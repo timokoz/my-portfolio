@@ -4,10 +4,10 @@
     <head>
     <meta charset="utf-8">
     <body oncontextmenu="return false">
-    <title>timofey</title>
-    <meta property="og:title" content="tim">
-    <meta name="description" content="relative">
-     <meta name="twitter:image:src" content="uploads/tim.png">
+    <title>yourname</title>
+    <meta property="og:title" content="yourname">
+    <meta name="description" content="yourdescription">
+     <meta name="twitter:image:src" content="yourimage">
         <meta name="theme-color" content="#000000">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -18,9 +18,9 @@
     <!-- main -->
     <body class="id">
       <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-            <audio loop src="uploads/a.mp3"></audio> <!-- audio (idk if its working) -->
+            <audio loop src=""></audio> <!-- your audio (mp3) -->
                 <div id="pattern"></div>
-                <video class="background" id="background" loop>
+                <video class="background" id="background" loop> <!-- your video (mp4) -->
                     <source src="" type="video/mp4"> <!-- mp4 -->
                 </video>
         <style>
@@ -40,16 +40,17 @@
                    <div scroll="no" id="biolink" class="card">
                         <div class="buttons">
                             <img class="avatar" src="uploads/hardpfp.jpg" title="pfp"> <!-- profile picture -->
- <!-- name -->     <h1>timofey<span class="small">&nbsp(тимофей)</span>  <!-- the gray next to the name -->
-                            <div>
-                                <!-- socials, ex. i put my telegram, discord & another site -->
-                            <a href="https://t.me/timxf1" target=""><i class="fa-brands fa-telegram"></i></a>
-                            <a href="https://discord.com/users/1196030921317556225" target=""><i class="fa-brands fa-discord"></i></a>
-                            <a href="https://github.com/timokoz" target=""><i class="fa-brands fa-github"></i></a>
+ <!-- name -->     <h1>yourname<span class="small">otherstuff</span>  <!-- the gray thingy next to the name (can be left blank) -->
+                            <!-- socials, ex. i put telegram, discord & github -->
+                             <div>   
+                            <a href="https://t.me/" target=""><i class="fa-brands fa-telegram"></i></a>
+                            <a href="https://discord.com/" target=""><i class="fa-brands fa-discord"></i></a>
+                            <a href="https://github.com/" target=""><i class="fa-brands fa-github"></i></a>
                             </div>
-                                </div>
+                                </div> <!-- weird code -->
                                 <br>
                    </body>
+<!-- dev inspect blocking script -->
 <script>
     document.addEventListener('contextmenu', (e) => e.preventDefault());
     
@@ -68,7 +69,7 @@
         return false;
     };
     
-    
+    // audio
       function playclip() {
           if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
               if (document.all) {
@@ -91,7 +92,7 @@
               }
           }
       }
-    
+    // click to enter stuff (fadein, play song&video etc.)
     document.querySelector('.id').addEventListener('click', function() {
     
     playclip();
