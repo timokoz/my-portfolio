@@ -16,6 +16,8 @@ if you wanna change the avatar, look up line 41
 <img class="avatar" src="" title="pfp"> <!-- profile picture -->
 ```
 
+more to come
+
 ## todo
 - [ ] finish the read me
 - [ ] clean up code 
