@@ -66,14 +66,17 @@ document.addEventListener('contextmenu', (e) => e.preventDefault());
             )
                 return false;
         };
-
+    
+    // func audio play
         function playMedia() {
             const audio = document.querySelector("audio");
             if (audio) {
                 audio.play();
                 audio.volume = 0.1;
             }
-
+        }
+    
+        function playVideo() {
             const video = document.querySelector("video");
             if (video) {
                 video.removeAttribute('hidden');
@@ -84,6 +87,7 @@ document.addEventListener('contextmenu', (e) => e.preventDefault());
 
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.id').addEventListener('click', () => {
+                playVideo();
                 playMedia();
                 $(".clickanywhere").fadeOut(300);
                 $(".biolink").fadeIn(2000);
