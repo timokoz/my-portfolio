@@ -17,5 +17,5 @@ if you wanna change the avatar, look up line 41
 ```
 
 ## todo
-finish the read me
-clean up code 
+- [ ] finish the read me
+- [ ] clean up code 
